@@ -1,6 +1,8 @@
 LanguageManager
 ===============
 
+Language manager is singletone class which can help you manage app language. It is usefull if You need have different language within the app then on the device. The best advantage of LanguageManager is that You still can use common methods to set localized text and titles, for example NSLocalizedStringFromTable. With LaguageManager it always returns localized string compatible with appLanguage property.
+
 #USAGE
 
 1. Register available languages in AppDelegate
